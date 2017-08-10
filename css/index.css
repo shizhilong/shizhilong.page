@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: "苹方";
+	font-weight: bold;
+}
+#sidebar{
+	padding: 0px 10px;
+	font-size: 16px;
+	position: fixed;
+	color: white;
+	background: #328BF3;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;	
+}
+#sidebar>.sson{
+	width: 00px;
+	height:120px;
+	background: #328BF3;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 5px;
+	transition: all .5s;
+	opacity: 0;
+	font-size: 12px;
+	overflow: hidden;	
+}
+#sidebar:hover .sson{
+	width: 200px;
+	opacity: 1;
+	left: -203px;
+}
+
+
+
+#menu{
+	position: fixed;
+	top: 10px;
+	left: -30px;
+}
+#menu>li{
+	width: 100px;
+	height: 35px;
+	background: #328BF3;
+	float: left;
+	margin-right: 10px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 35px;
+	transition: all .5s;
+	border-radius: 5px;
+}
+#menu>li>a{
+	color: #ffffff;
+	width: 100%;
+	height: 100%;
+	float: left;
+	border-radius: 5px;
+	letter-spacing: 2px;
+}
+#menu>.active a{
+    font-size: 18px;
+    color: #328BF3;
+    background: #ffffff;
+}
+.section{
+	font: 50px "苹方"; 
+	color: #fff;
+}
+.section h3{
+	text-align: center;
+	margin-top: 30px;
+}
+.section3{
+	background-image: url('../images/beijing9.jpg');
+	background-size: cover;
+}
+.section1{
+	background-image: url('../images/beijing5.jpg');
+	background-size: cover;
+}
+.section2{
+	background-image: url('../images/beijing6.jpg');
+	background-size: cover;
+}
+.section4{
+	background-image: url('../images/beijing8.jpg');
+	background-size: cover;
+}
+.section1 img{
+	display: block;
+	margin:0 auto;
+	width: 500px;
+	height: 460px;
+	border-radius: 5px;
+}
+.section2 h3{
+	position: relative; 
+	left: -120%;
+}
+.section2 .neirong{
+	width: 1000px;
+	height: 460px;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 0 auto;
+}
+.section2 ul{
+	width: 43%;
+	height: auto;
+	float: left;
+}
+.section2 ul li{
+	width: 100%;
+	height: 50px;  
+	line-height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #328BF3;
+	border-left: 8px solid #328BF3;
+	margin-top: 10px;
+	padding-left: 20px;
+}
+.section2 ul li span{
+	width: 80px;
+	display: inline-block;
+}
+.section2 .neirong .xia{
+	width: 90%;
+	height: 130px;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid #328BF3;
+	border-left: 8px solid #328BF3;
+	margin-top: 30px;
+	margin-left: 40px;
+	padding: 7px 0;
+	padding-left: 20px;
+}
+.section2 .neirong p{
+	height: 30px;
+	width: 100%;
+}
+.section3 h3{ 
+	position: relative; 
+	left: -120%;
+}
+.section3 #box{
+	width: 900px;
+	height: 550px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap; 
+}
+.section3 #box canvas{
+	margin-top: 30px;
+}
+.section4 h3{ 
+	position: relative; 
+	left: -120%;
+}
+.section4 .item{
+	width: 80%;
+	height: 300px;
+	margin: 0 auto;
+/* 	border: 1px solid white;
+ */	/* background: rgba(255, 255, 255, .3); */
+	margin-bottom: 5px;
+	font-size: 30px;
+}
+.section4 .item .title{
+	font-size:30px;
+	line-height: 40px;
+	text-align: center;
+}
+.section4 .item ul{
+	display: flex;
+    justify-content: space-around;
+}
+.section4 .item  li{
+	width: 240px;
+	height: 240px;
+	color: #000;
+	text-shadow: 2px 2px 4px #fff;
+	text-align: center;
+	line-height: 240px;
+	border-radius: 5px;
+	background: url('../images/beijing1.jpg') no-repeat center/cover;
+}
+
+
+.section4 .section4 .box{
+	margin-left: 20px;
+	width: 1000px;
+	height: 460px;
+	background: black;
+	border-radius: 5px;
+}
+.section4 .box{
+	width: 1000px;
+	height: 460px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.son{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.son img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.section4 .box>ul{
+	width: 240px;
+	height: 20px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	z-index: 33;
+}
+.section4 .box>ul>li{
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 50%;
+	float: left;
+	background: rgba(255, 255, 255, 0.5);
+}
+.section4 .box .left{
+	width: 30px;
+	height: 70px;
+	background: rgba(0, 0, 0, .5);
+	text-align: center;
+	line-height: 70px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 55;
+	font-size: 40px;
+}
+.section4 .box .right{
+	width: 30px;
+	height: 70px;
+	background: rgba(0, 0, 0, .5);
+	text-align: center;
+	line-height: 70px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 55;
+	font-size: 40px;
+}
