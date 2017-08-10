@@ -185,17 +185,16 @@
 	display: flex;
     justify-content: space-around;
 }
-.section4 .item  li{
+.section4 .item li{
 	width: 240px;
 	height: 240px;
-	color: #000;
-	text-shadow: 2px 2px 4px #fff;
+	color: #fff;
 	text-align: center;
 	line-height: 240px;
 	border-radius: 5px;
-	background: url('../images/beijing1.jpg') no-repeat center/cover;
+	border: 1px solid white;
+	text-shadow: 2px 2px 4px #000;
 }
-
 
 .section4 .section4 .box{
 	margin-left: 20px;
